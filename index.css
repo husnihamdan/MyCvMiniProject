@@ -1,0 +1,137 @@
+.flex-container {
+    /* display: flex; */
+    position: relative;
+    display: flex;
+}
+.left {
+    border: 3px;
+    /* border-style: solid; */
+    /* border-color: rgb(10, 100, 80); */
+    background-color: rgb(42, 54, 49);
+    height: 1024px;
+    width: 200px;
+    margin-left :40px;
+    /* z-index: 30; */
+    position: absolute;
+    border-radius: 10px;
+}
+.right{
+    border: 3px;
+    border-style: solid;
+    border-color: rgb(149, 238, 138);
+    background-color: rgb(202, 204, 60);
+    height: 1024px;
+    width: 70%;
+    /* padding-left: 50px; */
+    margin-left: 30px;
+    border-radius: 5px;
+}
+.cross{
+    border: 3px;
+    /* border-style: solid; */
+    /* border-color: rgb(163, 165, 64); */
+    background-color: rgb(207, 170, 114);
+    height: 150px;
+    width: 100%;
+    /* padding-left: 50px; */
+    margin-top: 40px;
+}
+img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 40px;
+    margin-left: 23px;
+    border-style: solid;
+    border-color: aliceblue;
+        /* margin-right: center; */
+}
+.left h2 {
+    color:antiquewhite;
+    font-size: 20px;
+    margin-top: 0;
+    padding: 10px;
+}
+
+.left ul {
+    list-style-type: none;
+    padding: 10px;
+    margin: 0;
+    color: aliceblue;
+    font-size: 14;
+}
+
+.left ul li {
+    margin-bottom: 10px;
+}
+.left p{
+    padding: 10px;
+    color: aliceblue;
+    font-size: 14px;
+}
+.cross h1{
+    margin-left: 300px;
+    margin-top: 30px;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.cross h4{
+    margin-left: 300px;
+    margin-top: -10px;
+}
+.cross .contactDiv{
+    position: absolute;
+    margin-top: -135px;
+    margin-left: 70%;
+}
+.cross p{
+    font-size: 18px;
+}
+
+
+.right {
+    background-color: #ffffff;
+    padding: 20px;
+    width: auto;
+    margin-top: 195px;
+    margin-left: 245px;
+    position: absolute;
+    border: none;
+}
+
+.right h2 {
+    color: #333;
+    font-size: 20px;
+    margin-top: 0;
+    position: relative;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.right .arrow {
+    position: absolute;
+    left: -25px;
+}
+
+.right ul {
+    list-style-type: none;
+    padding: 0;
+    /* margin: 0; */
+}
+
+.right ul li {
+    margin-bottom: 10px;
+}
+
+.right ul li strong {
+    font-weight: bold;
+}
+
+.right ul li span {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.right ul li p {
+    margin: 5px 0;
+}
